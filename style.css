@@ -4,6 +4,10 @@ div{
   border: 1px solid black;
   display: inline-block;
 }
+.container{
+  height: 600px;
+  width: 600px;
+}
 .canvas{
   height: 500px;
   width: 500px;
