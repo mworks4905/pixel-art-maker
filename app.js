@@ -2,7 +2,7 @@
 var drawCanvas = function() {
   var canvas = document.querySelector('.canvas')
 
-  for(i = 0; i < 400; i++){
+  for(i = 0; i < 600; i++){
      var canvasSquare = document.createElement('div');
      canvasSquare.className = 'canvasSquare';
      canvas.appendChild(canvasSquare);
@@ -23,8 +23,8 @@ var brush;
 var drawPallet = function(){
   var pallet = document.querySelector('.pallet');
 
-  var colors = ['#ff0000', '#ffa500', ' #ffff00', '#00ff00', '#0000ff', '#800080'];
-  console.log(colors);
+  var colors = ['#ff0000', 'OrangeRed','LightCoral', '#ffa500', 'Gold', '#ffff00','LawnGreen', 'Lime', '#00ff00', 'MediumSpringGreen','Teal', '#0000ff', 'DodgerBlue', 'LightSkyBlue', 'MediumSlateBlue', '#800080', 'Indigo', '#fff', 'LightGrey', 'DarkGrey', 'Grey', 'DimGrey', '#000'];
+  //console.log(colors);
 
   var currentColor = '';
 
@@ -35,7 +35,7 @@ var drawPallet = function(){
     color.className = 'color'
     color.style.backgroundColor = colors[j];
     pallet.appendChild(color);
-    console.log(color);
+    //console.log(color);
   }
 
   //this for loop adds eventListeners for the pallet divs
@@ -43,6 +43,7 @@ var drawPallet = function(){
   for(k = 0; k < palletDivs.length; k++){
     palletDivs[k].addEventListener('click', function(){
       currentColor = this.style.backgroundColor;
+
     });
   }
 
@@ -51,6 +52,7 @@ var drawPallet = function(){
   for(l = 0; l < canvasDivs.length; l++){
     canvasDivs[l].addEventListener('click', function(){
       this.style.backgroundColor = currentColor;
+      this.style.borderColor = currentColor;
     })
   }
 }
