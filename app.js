@@ -23,7 +23,7 @@ var brush;
 var drawPallet = function(){
   var pallet = document.querySelector('.pallet');
 
-  var colors = ['#ff0000', 'OrangeRed','LightCoral', '#ffa500', 'Gold', '#ffff00','LawnGreen', 'Lime', '#00ff00', 'MediumSpringGreen','Teal', '#0000ff', 'DodgerBlue', 'LightSkyBlue', 'MediumSlateBlue', '#800080', 'Indigo', '#fff', 'LightGrey', 'DarkGrey', 'Grey', 'DimGrey', '#000'];
+  var colors = ['#ff0000', 'OrangeRed','LightCoral', '#ffa500', 'Gold', '#ffff00','LawnGreen', 'Lime', '#00ff00', 'MediumSpringGreen','Teal', '#0000ff', 'DodgerBlue', 'LightSkyBlue', 'MediumSlateBlue', '#800080', 'Indigo', 'Brown', 'SaddleBrown', 'Chocolate', 'SandyBrown', 'Wheat', '#fff', 'LightGrey', 'DarkGrey', 'Grey', 'DimGrey', '#000',];
   //console.log(colors);
 
   var currentColor = '';

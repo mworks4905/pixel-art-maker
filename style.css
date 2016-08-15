@@ -1,3 +1,6 @@
+body{
+  background-color: CadetBlue;
+}
 main{
   width: 500px;
   margin: auto;
@@ -11,6 +14,7 @@ h2{
   text-decoration: underline;
 }
 .canvasSquare{
+  background-color: white;
   height: 20px;
   width: 20px;
   border: 1px solid gray;
