@@ -1,41 +1,54 @@
-body{
-  background-color: CadetBlue;
+body
+{
+    background-color: CadetBlue;
 }
-main{
-  width: 500px;
-  margin: auto;
-}
-h1{
-  text-align: center;
-  text-decoration: underline;
-}
-h2{
-  text-align: center;
-  text-decoration: underline;
-}
-.canvasSquare{
-  background-color: white;
-  height: 20px;
-  width: 20px;
-  border: 1px solid gray;
-  box-sizing: border-box;
-}
-.canvas {
-  display: flex;
-  flex-wrap: wrap;
-}
-.pallet{
-  text-align: center;
-  width: 500px;
-  margin: auto;
 
+main
+{
+    width: 500px;
+    margin: auto;
 }
-.pallet div{
-  width: 20px;
-  height: 20px;
-  border: 1px solid black;
-  border-radius: 100%;
-  margin: 0px 5px 0px 5px;
-  display: inline-block;
 
+h1
+{
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2
+{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.canvasSquare
+{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.canvas
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pallet
+{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+.pallet div
+{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 0px 5px 0px 5px;
+    display: inline-block;
 }
